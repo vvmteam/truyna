@@ -1,0 +1,35 @@
+.dataTables_filter {
+    display: flex;
+    padding-bottom: 1.25rem;
+}
+
+.dataTables_filter input {
+    margin: 0 0.25rem;
+    min-width: 125px;
+    border: 1px solid #ccc;
+    border-left: 3px solid #f99;
+    border-radius: 5px;
+    transition: border-color 0.5s ease-out;
+}
+
+.hidden {
+    opacity: 0;
+    display: none;
+    visibility: hidden;
+}
+
+.name {
+    font-weight: bold;
+}
+
+label {
+    margin: 0;
+}
+
+footer {
+    height: auto;
+    Background-color: #ccc;
+    Padding-top: 20px;
+    Padding-bottom: 20px;
+    Margin-top: 20px;
+}
